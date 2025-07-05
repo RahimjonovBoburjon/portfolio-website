@@ -6,8 +6,8 @@
     <!-- Main Content -->
     <div v-show="!isLoading" class="main-content">
       <!-- Fixed Social Media Links (Left Side) -->
-      <div class="fixed left-8 bottom-0 z-40 hidden lg:block social-links" data-aos="fade-up" data-aos-delay="800">
-        <ul class="flex flex-col items-center space-y-6">
+      <div class="fixed left-8 bottom-0 z-40 hidden lg:flex flex-col items-center social-links" data-aos="fade-up" data-aos-delay="800">
+        <ul class="flex flex-col items-center space-y-6 mb-4">
           <li>
             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" 
                class="text-slate hover:text-green transition-colors duration-300 social-link">
@@ -41,16 +41,18 @@
             </a>
           </li>
         </ul>
+        <div class="w-px h-24 bg-slate opacity-40"></div>
       </div>
 
       <!-- Fixed Email Link (Right Side) -->
-      <div class="fixed right-8 bottom-0 z-40 hidden lg:block email-link" data-aos="fade-up" data-aos-delay="900">
-        <div class="flex flex-col items-center space-y-6">
+      <div class="fixed right-8 bottom-0 z-40 hidden lg:flex flex-col items-center email-link" data-aos="fade-up" data-aos-delay="900">
+        <div class="flex flex-col items-center space-y-6 mb-4">
           <a href="mailto:your.email@example.com" 
              class="text-slate hover:text-green transition-colors duration-300 writing-mode-vertical">
             your.email@example.com
           </a>
         </div>
+        <div class="w-px h-24 bg-slate opacity-40"></div>
       </div>
 
       <!-- Navigation -->
