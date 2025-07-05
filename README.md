@@ -1,10 +1,9 @@
 # Portfolio Website v1
 
-A beautiful portfolio website inspired by Brittany Chiang's design, built with Vue 3, Vite, and Tailwind CSS.
+A beautiful portfolio website built with Vue 3, Vite, and Tailwind CSS.
 
 ## 🚀 Features
 
-- **Modern Design**: Inspired by Brittany Chiang's portfolio with exact color scheme
 - **Responsive**: Works perfectly on all devices
 - **Smooth Animations**: AOS (Animate On Scroll) for beautiful transitions
 - **Vue 3**: Latest Vue.js with Composition API
@@ -26,8 +25,8 @@ A beautiful portfolio website inspired by Brittany Chiang's design, built with V
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd portfolio-website-v1
+git clone https://github.com/RahimjonovBoburjon/portfolio-website.git
+cd portfolio-website
 ```
 
 2. Install dependencies
@@ -121,12 +120,3 @@ The website is fully responsive and optimized for:
 ## 📄 License
 
 MIT License - feel free to use this template for your own portfolio!
-
-## 🙏 Credits
-
-- Design inspiration: [Brittany Chiang](https://brittanychiang.com/)
-- Original portfolio: [GitHub Repository](https://github.com/bchiang7/v4)
-
----
-
-**Note**: Remember to replace placeholder content with your actual information and add your own projects and experience!
