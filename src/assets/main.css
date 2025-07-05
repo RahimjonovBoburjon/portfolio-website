@@ -1,0 +1,56 @@
+/* Import AOS styles */
+@import 'aos/dist/aos.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+body {
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+
+/* Custom utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a192f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #233554;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64ffda;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced hover effects */
+.group:hover .group-hover\:text-green {
+  color: #64ffda;
+  transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
