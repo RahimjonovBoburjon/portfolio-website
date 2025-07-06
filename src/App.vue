@@ -66,20 +66,34 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between items-center h-16">
                         <div class="text-green text-xl font-bold nav-logo" data-aos="fade-down" data-aos-delay="200">
-                            Portfolio</div>
-                        <div class="hidden md:flex space-x-8">
+                            Portfolio
+                        </div>
+                        <div class="hidden md:flex items-center space-x-8">
                             <a href="#about"
-                                class="text-lightest-slate hover:text-green transition-colors duration-300 nav-link"
-                                data-aos="fade-down" data-aos-delay="300">About</a>
+                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                               data-aos="fade-down" data-aos-delay="300">
+                                <span class="text-green mr-1">01.</span> About
+                            </a>
                             <a href="#experience"
-                                class="text-lightest-slate hover:text-green transition-colors duration-300 nav-link"
-                                data-aos="fade-down" data-aos-delay="400">Experience</a>
+                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                               data-aos="fade-down" data-aos-delay="400">
+                                <span class="text-green mr-1">02.</span> Experience
+                            </a>
                             <a href="#work"
-                                class="text-lightest-slate hover:text-green transition-colors duration-300 nav-link"
-                                data-aos="fade-down" data-aos-delay="500">Work</a>
+                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                               data-aos="fade-down" data-aos-delay="500">
+                                <span class="text-green mr-1">03.</span> Work
+                            </a>
                             <a href="#contact"
-                                class="text-lightest-slate hover:text-green transition-colors duration-300 nav-link"
-                                data-aos="fade-down" data-aos-delay="600">Contact</a>
+                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                               data-aos="fade-down" data-aos-delay="600">
+                                <span class="text-green mr-1">04.</span> Contact
+                            </a>
+                            <a href="../public/boburjon-cv.pdf" target="_blank" rel="noopener noreferrer"
+                               class="ml-6 px-4 py-2 border border-green text-green font-mono text-sm rounded transition-all duration-300 hover:bg-green/10 font-bold"
+                               data-aos="fade-down" data-aos-delay="700">
+                                Resume
+                            </a>
                         </div>
                     </div>
                 </div>
