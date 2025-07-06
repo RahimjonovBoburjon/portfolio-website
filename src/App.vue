@@ -89,7 +89,7 @@
                                data-aos="fade-down" data-aos-delay="600">
                                 <span class="text-green mr-1">04.</span> Contact
                             </a>
-                            <a href="../public/boburjon-cv.pdf" target="_blank" rel="noopener noreferrer"
+                            <a href="/boburjon-cv.pdf" target="_blank" rel="noopener noreferrer"
                                class="ml-6 px-4 py-2 border border-green text-green font-mono text-sm rounded transition-all duration-300 hover:bg-green/10 font-bold"
                                data-aos="fade-down" data-aos-delay="700">
                                 Resume
