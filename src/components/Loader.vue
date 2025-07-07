@@ -3,7 +3,9 @@
     <transition name="fade-slide">
       <div v-if="showLogo" class="loader-container">
         <div class="loader-logo" :class="{ 'logo-in': logoIn, 'logo-out': logoOut }">
-          <div class="logo-text">Portfolio</div>
+          <div class="logo-text">Building interfaces</div>
+          <div class="logo-dot"></div>
+          <div class="logo-dot"></div>
           <div class="logo-dot"></div>
         </div>
         <transition name="fade">
@@ -144,21 +146,33 @@ export default {
 }
 
 .logo-dot {
-  width: 8px;
-  height: 8px;
-  background-color: #64ffda;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
   border-radius: 50%;
-  animation: pulse 1.5s ease-in-out infinite;
+  background: #64ffda;
+  display: inline-block;
+  animation: loader-bounce 1s infinite;
 }
 
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
+.logo-dot:nth-child(1) {
+  animation-delay: 0s;
+}
+.logo-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.logo-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes loader-bounce {
+  0%, 80%, 100% {
     transform: scale(1);
+    opacity: 0.7;
   }
-  50% {
-    opacity: 0.5;
-    transform: scale(1.2);
+  40% {
+    transform: scale(1.5);
+    opacity: 1;
   }
 }
 

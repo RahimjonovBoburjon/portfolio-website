@@ -65,8 +65,8 @@
             <nav class="fixed top-0 w-full bg-navy/90 backdrop-blur-sm z-50 border-b border-lightest-navy/20">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between items-center h-16">
-                        <div class="text-green text-xl font-bold nav-logo" data-aos="fade-down" data-aos-delay="200">
-                            Portfolio
+                        <div class="text-[#64ffda] font-bold tracking-widest text-xl font-mono" data-aos="fade-down" data-aos-delay="200">
+                            bobur.dev
                         </div>
                         <div class="hidden md:flex items-center space-x-8">
                             <a href="#about"
@@ -104,23 +104,23 @@
                 <div class="max-w-4xl mx-auto text-center">
                     <p class="text-green mb-4 font-mono text-sm hero-greeting" data-aos="fade-up" data-aos-delay="300">
                         Hi, my name is</p>
-                    <h1 class="text-6xl md:text-8xl font-bold text-lightest-slate mb-4 leading-tight hero-name"
+                    <h1 class="text-6xl md:text-5xl font-bold text-lightest-slate mb-4 leading-tight hero-name"
                         data-aos="fade-up" data-aos-delay="400">
-                        Your Name
+                        Boburjon Rahimjonov.
                     </h1>
-                    <h2 class="text-4xl md:text-6xl font-bold text-light-slate mb-8 leading-tight hero-tagline"
+                    <h2 class="text-4xl md:text-5xl font-bold text-light-slate mb-8 leading-tight hero-tagline"
                         data-aos="fade-up" data-aos-delay="500">
-                        I build things for the web.
+                        I turn code into experience.
                     </h2>
-                    <p class="text-xl text-slate max-w-2xl mx-auto mb-12 leading-relaxed hero-description"
+                    <p class="text-lg text-slate max-w-2xl mx-auto mb-12 leading-relaxed hero-description"
                         data-aos="fade-up" data-aos-delay="600">
-                        I'm a software engineer specializing in building exceptional digital experiences.
-                        Currently, I'm focused on building accessible, human-centered products.
+                        I’m a senior Front-end developer passionate about creating clean, accessible and user-friendly interfaces. 
+                        Right now, I'm focused on building fast and responsive websites using Vue.js, Tailwind CSS and other modern tools.
                     </p>
                     <button
                         class="border-2 border-green text-green px-8 py-4 rounded hover:bg-green/10 transition-all duration-300 font-mono text-sm hero-button"
                         data-aos="fade-up" data-aos-delay="700">
-                        Check out my work!
+                        More about me!
                     </button>
                 </div>
             </section>
