@@ -10,7 +10,7 @@
                 data-aos-delay="800">
                 <ul class="flex flex-col items-center space-y-6 mb-4">
                     <li>
-                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+                        <a href="https://github.com/RahimjonovBoburjon" target="_blank" rel="noopener noreferrer"
                             class="text-slate hover:text-green transition-colors duration-300 social-link">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -19,7 +19,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"
+                        <a href="https://www.linkedin.com/in/mentorbobur" target="_blank" rel="noopener noreferrer"
                             class="text-slate hover:text-green transition-colors duration-300 social-link">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -28,7 +28,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"
+                        <a href="https://t.me/mentorbobur" target="_blank" rel="noopener noreferrer"
                             class="text-slate hover:text-green transition-colors duration-300 social-link">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer"
+                        <a href="https://www.instagram.com/mentor_bobur" target="_blank" rel="noopener noreferrer"
                             class="text-slate hover:text-green transition-colors duration-300 social-link">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -53,9 +53,9 @@
             <div class="fixed right-8 bottom-0 z-40 hidden lg:flex flex-col items-center email-link" data-aos="fade-up"
                 data-aos-delay="900">
                 <div class="flex flex-col items-center space-y-6 mb-4">
-                    <a href="mailto:your.email@example.com"
+                    <a href="mailto:shadow88bob@gmail.com"
                         class="text-slate hover:text-green transition-colors duration-300 writing-mode-vertical">
-                        your.email@example.com
+                        shadow88bob@gmail.com
                     </a>
                 </div>
                 <div class="w-px h-24 bg-slate opacity-40"></div>
@@ -65,33 +65,34 @@
             <nav class="fixed top-0 w-full bg-navy/90 backdrop-blur-sm z-50 border-b border-lightest-navy/20">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between items-center h-16">
-                        <div class="text-[#64ffda] font-bold tracking-widest text-xl font-mono" data-aos="fade-down" data-aos-delay="200">
+                        <div class="text-[#64ffda] font-bold tracking-widest text-xl font-mono" data-aos="fade-down"
+                            data-aos-delay="200">
                             bobur.dev
                         </div>
                         <div class="hidden md:flex items-center space-x-8">
                             <a href="#about"
-                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
-                               data-aos="fade-down" data-aos-delay="300">
+                                class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                                data-aos="fade-down" data-aos-delay="300">
                                 <span class="text-green mr-1">01.</span> About
                             </a>
                             <a href="#experience"
-                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
-                               data-aos="fade-down" data-aos-delay="400">
+                                class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                                data-aos="fade-down" data-aos-delay="400">
                                 <span class="text-green mr-1">02.</span> Experience
                             </a>
                             <a href="#work"
-                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
-                               data-aos="fade-down" data-aos-delay="500">
+                                class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                                data-aos="fade-down" data-aos-delay="500">
                                 <span class="text-green mr-1">03.</span> Work
                             </a>
                             <a href="#contact"
-                               class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
-                               data-aos="fade-down" data-aos-delay="600">
+                                class="flex items-center font-mono text-sm text-lightest-slate hover:text-green transition-colors duration-300 nav-link font-bold"
+                                data-aos="fade-down" data-aos-delay="600">
                                 <span class="text-green mr-1">04.</span> Contact
                             </a>
                             <a href="/boburjon-cv.pdf" target="_blank" rel="noopener noreferrer"
-                               class="ml-6 px-4 py-2 border border-green text-green font-mono text-sm rounded transition-all duration-300 hover:bg-green/10 font-bold"
-                               data-aos="fade-down" data-aos-delay="700">
+                                class="ml-6 px-4 py-2 border border-green text-green font-mono text-sm rounded transition-all duration-300 hover:bg-green/10 font-bold"
+                                data-aos="fade-down" data-aos-delay="700">
                                 Resume
                             </a>
                         </div>
@@ -114,8 +115,10 @@
                     </h2>
                     <p class="text-lg text-slate max-w-2xl mx-auto mb-12 leading-relaxed hero-description"
                         data-aos="fade-up" data-aos-delay="600">
-                        I’m a senior Front-end developer passionate about creating clean, accessible and user-friendly interfaces. 
-                        Right now, I'm focused on building fast and responsive websites using Vue.js, Tailwind CSS and other modern tools.
+                        I’m a senior front-end developer passionate about creating clean, accessible and
+                        high-performance websites.
+                        Right now, I'm focused on building fast and responsive websites using Vue.js, Tailwind CSS and
+                        other modern tools.
                     </p>
                     <button
                         class="border-2 border-green text-green px-8 py-4 rounded hover:bg-green/10 transition-all duration-300 font-mono text-sm hero-button"
@@ -137,14 +140,17 @@
                         <div class="about-content">
                             <p class="text-slate mb-4 leading-relaxed about-text-1" data-aos="fade-right"
                                 data-aos-delay="200">
-                                Hello! I'm [Your Name], a passionate software engineer with a love for creating
-                                beautiful and functional web experiences.
+                                Hi! I'm Mr Bobur, a front-end developer passionate about building sleek, responsive, and
+                                high-performance websites. My journey into web development began with curiosity —
+                                experimenting with layouts and small UI interactions quickly turned into a serious
+                                passion for crafting digital experiences.
                             </p>
                             <p class="text-slate mb-4 leading-relaxed about-text-2" data-aos="fade-right"
                                 data-aos-delay="300">
-                                I enjoy creating things that live on the internet, whether that be websites,
-                                applications, or anything in between. My goal is to always build products that
-                                provide pixel-perfect, performant experiences.
+                                Since then, I’ve worked on everything from educational platforms to startup prototypes,
+                                focusing on modern tools like Vue.js, Tailwind CSS, and Firebase. I’m currently working
+                                on Forcera, a platform that helps people stay focused and achieve their goals with AI
+                                guidance.
                             </p>
                             <p class="text-slate mb-4 leading-relaxed about-text-3" data-aos="fade-right"
                                 data-aos-delay="400">
@@ -158,19 +164,19 @@
                                 </li>
                                 <li class="flex items-center skill-item" data-aos="fade-right" data-aos-delay="700">
                                     <span class="text-green mr-2">▹</span>
-                                    Vue.js
+                                    Vite
                                 </li>
                                 <li class="flex items-center skill-item" data-aos="fade-right" data-aos-delay="800">
                                     <span class="text-green mr-2">▹</span>
-                                    React
+                                    TypeScript
                                 </li>
                                 <li class="flex items-center skill-item" data-aos="fade-right" data-aos-delay="900">
                                     <span class="text-green mr-2">▹</span>
-                                    Node.js
+                                    Vue.js
                                 </li>
                                 <li class="flex items-center skill-item" data-aos="fade-right" data-aos-delay="1000">
                                     <span class="text-green mr-2">▹</span>
-                                    TypeScript
+                                    Firebase
                                 </li>
                                 <li class="flex items-center skill-item" data-aos="fade-right" data-aos-delay="1100">
                                     <span class="text-green mr-2">▹</span>

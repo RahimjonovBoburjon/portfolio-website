@@ -3,7 +3,7 @@
     <transition name="fade-slide">
       <div v-if="showLogo" class="loader-container">
         <div class="loader-logo" :class="{ 'logo-in': logoIn, 'logo-out': logoOut }">
-          <div class="logo-text">Building interfaces</div>
+          <div class="logo-text">Crafting</div>
           <div class="logo-dot"></div>
           <div class="logo-dot"></div>
           <div class="logo-dot"></div>
@@ -26,7 +26,7 @@ export default {
   props: {
     duration: {
       type: Number,
-      default: 1200 // faster bar fill
+      default: 1200
     }
   },
   emits: ['loading-complete'],
