@@ -32,7 +32,7 @@
                             class="text-slate hover:text-green transition-colors duration-300 social-link">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <path
-                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                                    d="M9.036 16.572l-.396 3.77c.568 0 .814-.244 1.112-.537l2.664-2.537 5.522 4.03c1.012.558 1.736.264 2.002-.937l3.63-17.06c.332-1.53-.557-2.13-1.54-1.76L1.36 9.27c-1.48.58-1.46 1.41-.252 1.78l4.63 1.45 10.74-6.77c.505-.32.97-.143.59.18z" />
                             </svg>
                         </a>
                     </li>
@@ -41,7 +41,7 @@
                             class="text-slate hover:text-green transition-colors duration-300 social-link">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                 <path
-                                    d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.323-1.297C4.198 14.895 3.708 13.744 3.708 12.447s.49-2.448 1.418-3.323c.875-.807 2.026-1.297 3.323-1.297s2.448.49 3.323 1.297c.928.875 1.418 2.026 1.418 3.323s-.49 2.448-1.418 3.244c-.875.807-2.026 1.297-3.323 1.297zm7.718-1.297c-.875.807-2.026 1.297-3.323 1.297s-2.448-.49-3.323-1.297c-.928-.875-1.418-2.026-1.418-3.244s.49-2.448 1.418-3.323c.875-.807 2.026-1.297 3.323-1.297s2.448.49 3.323 1.297c.928.875 1.418 2.026 1.418 3.323s-.49 2.448-1.418 3.244z" />
+                                    d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5a5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5zm5.25.75a1 1 0 1 1-2 0a1 1 0 0 1 2 0z" />
                             </svg>
                         </a>
                     </li>
@@ -120,8 +120,7 @@
                         Right now, I'm focused on building fast and responsive websites using Vue.js, Tailwind CSS and
                         other modern tools.
                     </p>
-                    <a
-                        href="#about"
+                    <a href="#about"
                         class="border-2 border-green text-green px-8 py-4 rounded hover:bg-green/10 transition-all duration-300 font-mono text-sm hero-button inline-block text-center"
                         data-aos="fade-up" data-aos-delay="700">
                         More about me!
@@ -188,7 +187,8 @@
                         <div class="relative about-image" data-aos="fade-left" data-aos-delay="400">
                             <div class="w-80 h-80 mx-auto bg-lightest-navy rounded-lg relative overflow-hidden">
                                 <!-- Placeholder for profile image -->
-                                <div class="absolute inset-0 bg-green/20 rounded-lg"><img src="/profile_pic.png" alt="profile"></div>
+                                <div class="absolute inset-0 bg-green/20 rounded-lg"><img src="/profile_pic.png"
+                                        alt="profile"></div>
                                 <div
                                     class="absolute inset-0 border-2 border-green rounded-lg transform translate-x-4 translate-y-4">
                                 </div>
@@ -210,22 +210,24 @@
                         <div class="border-l-2 border-lightest-navy pl-8 experience-item" data-aos="fade-up"
                             data-aos-delay="200">
                             <h3 class="text-xl font-bold text-lightest-slate job-title" data-aos="fade-up"
-                                data-aos-delay="300">Senior Software Engineer</h3>
-                            <p class="text-green company-name" data-aos="fade-up" data-aos-delay="400">Company Name</p>
+                                data-aos-delay="300">Senior Front-end Developer</h3>
+                            <p class="text-green company-name" data-aos="fade-up" data-aos-delay="400">Freelance</p>
                             <p class="text-slate text-sm font-mono job-period" data-aos="fade-up" data-aos-delay="500">
-                                2022 - Present</p>
+                                2023 - Present</p>
                             <ul class="mt-4 space-y-2 text-slate job-description">
                                 <li class="flex items-start job-point" data-aos="fade-up" data-aos-delay="600">
                                     <span class="text-green mr-2 mt-1">▹</span>
-                                    Led development of key features for a high-traffic web application
+                                    Delivered modern, responsive websites and web apps for various clients using Vue.js
+                                    and Tailwind CSS
                                 </li>
                                 <li class="flex items-start job-point" data-aos="fade-up" data-aos-delay="700">
                                     <span class="text-green mr-2 mt-1">▹</span>
-                                    Mentored junior developers and conducted code reviews
+                                    Worked on diverse freelance projects, including portfolios, landing pages and admin
+                                    dashboards
                                 </li>
                                 <li class="flex items-start job-point" data-aos="fade-up" data-aos-delay="800">
                                     <span class="text-green mr-2 mt-1">▹</span>
-                                    Collaborated with cross-functional teams to deliver exceptional user experiences
+                                    Managed full project cycles independently — from design to deployment
                                 </li>
                             </ul>
                         </div>
@@ -233,23 +235,25 @@
                         <div class="border-l-2 border-lightest-navy pl-8 experience-item" data-aos="fade-up"
                             data-aos-delay="300">
                             <h3 class="text-xl font-bold text-lightest-slate job-title" data-aos="fade-up"
-                                data-aos-delay="400">Software Engineer</h3>
-                            <p class="text-green company-name" data-aos="fade-up" data-aos-delay="500">Previous Company
+                                data-aos-delay="400">Front-end Developer</h3>
+                            <p class="text-green company-name" data-aos="fade-up" data-aos-delay="500">at IT-LABS
                             </p>
                             <p class="text-slate text-sm font-mono job-period" data-aos="fade-up" data-aos-delay="600">
-                                2020 - 2022</p>
+                                2021 - 2023</p>
                             <ul class="mt-4 space-y-2 text-slate job-description">
                                 <li class="flex items-start job-point" data-aos="fade-up" data-aos-delay="700">
                                     <span class="text-green mr-2 mt-1">▹</span>
-                                    Built and maintained multiple web applications using modern frameworks
+                                    Developed and maintained web applications for corporate clients using Vue.js and
+                                    JavaScript
                                 </li>
                                 <li class="flex items-start job-point" data-aos="fade-up" data-aos-delay="800">
                                     <span class="text-green mr-2 mt-1">▹</span>
-                                    Implemented responsive designs and ensured cross-browser compatibility
+                                    Collaborated with backend and design teams to build scalable and reusable UI
+                                    components
                                 </li>
                                 <li class="flex items-start job-point" data-aos="fade-up" data-aos-delay="900">
                                     <span class="text-green mr-2 mt-1">▹</span>
-                                    Optimized application performance and user experience
+                                    Actively participated in team code reviews and agile workflows
                                 </li>
                             </ul>
                         </div>
@@ -359,7 +363,13 @@
 
             <!-- Footer -->
             <footer class="py-8 px-4 text-center text-slate">
-                <p class="font-mono text-sm footer-text">Designed & Built by [Your Name]</p>
+                <p class="font-mono text-sm footer-text">
+                    Designed & Built by
+                    <a href="https://t.me/justc0der" target="_blank" rel="noopener noreferrer"
+                        class="text-green font-bold hover:underline transition-colors duration-300">
+                        Boburjon
+                    </a>
+                </p>
             </footer>
         </div>
     </div>
