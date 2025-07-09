@@ -272,6 +272,9 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div class="bg-lightest-navy p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300 group project-card"
                             data-aos="fade-up" data-aos-delay="200">
+                            <img src="/Projects/forcera logo banner.png" alt="Forcera project screenshot"
+                                class="w-full h-48 object-cover rounded mb-4 project-image" data-aos="fade-up"
+                                data-aos-delay="250" />
                             <h3 class="text-xl font-bold text-lightest-slate mb-2 group-hover:text-green transition-colors project-title"
                                 data-aos="fade-up" data-aos-delay="300">Forcera</h3>
                             <p class="text-slate mb-4 leading-relaxed project-description" data-aos="fade-up"
@@ -296,10 +299,14 @@
 
                         <div class="bg-lightest-navy p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300 group project-card"
                             data-aos="fade-up" data-aos-delay="300">
+                            <img src="/Projects/dark empire mafia banner.png" alt="Dark Empire Mafia project screenshot"
+                                class="w-full h-48 object-cover rounded mb-4 project-image" data-aos="fade-up"
+                                data-aos-delay="350" />
                             <h3 class="text-xl font-bold text-lightest-slate mb-2 group-hover:text-green transition-colors project-title"
                                 data-aos="fade-up" data-aos-delay="400">Dark Empire Mafia</h3>
                             <p class="text-slate mb-4 leading-relaxed project-description" data-aos="fade-up"
-                                data-aos-delay="500">An interactive mafia strategy game with real-time roles and deception.</p>
+                                data-aos-delay="500">An interactive mafia strategy game with real-time roles and
+                                deception.</p>
                             <div class="flex flex-wrap gap-2 mb-4 project-tech" data-aos="fade-up" data-aos-delay="600">
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
                                     data-aos="fade-up" data-aos-delay="700">Vue.js</span>
@@ -309,16 +316,21 @@
                                     data-aos="fade-up" data-aos-delay="900">Node.js</span>
                             </div>
                             <div class="flex space-x-4 project-links" data-aos="fade-up" data-aos-delay="1000">
-                                <a href="https://dark-empire-mafia.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                <a href="https://dark-empire-mafia.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">Live
                                     Demo</a>
-                                <a href="https://github.com/RahimjonovBoburjon/Dark-Empire-Mafia/" target="_blank" rel="noopener noreferrer"
+                                <a href="https://github.com/RahimjonovBoburjon/Dark-Empire-Mafia/" target="_blank"
+                                    rel="noopener noreferrer"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">GitHub</a>
                             </div>
                         </div>
 
                         <div class="bg-lightest-navy p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300 group project-card"
                             data-aos="fade-up" data-aos-delay="400">
+                            <img src="/Projects/resume builder banner.png" alt="Resume Builder project screenshot"
+                                class="w-full h-48 object-cover rounded mb-4 project-image" data-aos="fade-up"
+                                data-aos-delay="450" />
                             <h3 class="text-xl font-bold text-lightest-slate mb-2 group-hover:text-green transition-colors project-title"
                                 data-aos="fade-up" data-aos-delay="500">Resume Builder</h3>
                             <p class="text-slate mb-4 leading-relaxed project-description" data-aos="fade-up"
