@@ -120,11 +120,12 @@
                         Right now, I'm focused on building fast and responsive websites using Vue.js, Tailwind CSS and
                         other modern tools.
                     </p>
-                    <button
-                        class="border-2 border-green text-green px-8 py-4 rounded hover:bg-green/10 transition-all duration-300 font-mono text-sm hero-button"
+                    <a
+                        href="#about"
+                        class="border-2 border-green text-green px-8 py-4 rounded hover:bg-green/10 transition-all duration-300 font-mono text-sm hero-button inline-block text-center"
                         data-aos="fade-up" data-aos-delay="700">
                         More about me!
-                    </button>
+                    </a>
                 </div>
             </section>
 
@@ -187,7 +188,7 @@
                         <div class="relative about-image" data-aos="fade-left" data-aos-delay="400">
                             <div class="w-80 h-80 mx-auto bg-lightest-navy rounded-lg relative overflow-hidden">
                                 <!-- Placeholder for profile image -->
-                                <div class="absolute inset-0 bg-green/20 rounded-lg"></div>
+                                <div class="absolute inset-0 bg-green/20 rounded-lg"><img src="/profile_pic.png" alt="profile"></div>
                                 <div
                                     class="absolute inset-0 border-2 border-green rounded-lg transform translate-x-4 translate-y-4">
                                 </div>
