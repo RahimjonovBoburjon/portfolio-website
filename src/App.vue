@@ -273,16 +273,17 @@
                         <div class="bg-lightest-navy p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300 group project-card"
                             data-aos="fade-up" data-aos-delay="200">
                             <h3 class="text-xl font-bold text-lightest-slate mb-2 group-hover:text-green transition-colors project-title"
-                                data-aos="fade-up" data-aos-delay="300">Project One</h3>
+                                data-aos="fade-up" data-aos-delay="300">Forcera</h3>
                             <p class="text-slate mb-4 leading-relaxed project-description" data-aos="fade-up"
-                                data-aos-delay="400">A beautiful web application built with modern technologies.</p>
+                                data-aos-delay="400">A modern productivity platform designed for focused goal tracking.
+                            </p>
                             <div class="flex flex-wrap gap-2 mb-4 project-tech" data-aos="fade-up" data-aos-delay="500">
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
                                     data-aos="fade-up" data-aos-delay="600">Vue.js</span>
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
                                     data-aos="fade-up" data-aos-delay="700">Tailwind CSS</span>
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
-                                    data-aos="fade-up" data-aos-delay="800">Node.js</span>
+                                    data-aos="fade-up" data-aos-delay="800">Firebase</span>
                             </div>
                             <div class="flex space-x-4 project-links" data-aos="fade-up" data-aos-delay="900">
                                 <a href="#"
@@ -296,22 +297,22 @@
                         <div class="bg-lightest-navy p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300 group project-card"
                             data-aos="fade-up" data-aos-delay="300">
                             <h3 class="text-xl font-bold text-lightest-slate mb-2 group-hover:text-green transition-colors project-title"
-                                data-aos="fade-up" data-aos-delay="400">Project Two</h3>
+                                data-aos="fade-up" data-aos-delay="400">Dark Empire Mafia</h3>
                             <p class="text-slate mb-4 leading-relaxed project-description" data-aos="fade-up"
-                                data-aos-delay="500">An innovative mobile-first responsive design.</p>
+                                data-aos-delay="500">An interactive mafia strategy game with real-time roles and deception.</p>
                             <div class="flex flex-wrap gap-2 mb-4 project-tech" data-aos="fade-up" data-aos-delay="600">
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
-                                    data-aos="fade-up" data-aos-delay="700">React</span>
+                                    data-aos="fade-up" data-aos-delay="700">Vue.js</span>
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
-                                    data-aos="fade-up" data-aos-delay="800">TypeScript</span>
+                                    data-aos="fade-up" data-aos-delay="800">Socket.IO</span>
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
-                                    data-aos="fade-up" data-aos-delay="900">Firebase</span>
+                                    data-aos="fade-up" data-aos-delay="900">Node.js</span>
                             </div>
                             <div class="flex space-x-4 project-links" data-aos="fade-up" data-aos-delay="1000">
-                                <a href="#"
+                                <a href="https://dark-empire-mafia.netlify.app/" target="_blank" rel="noopener noreferrer"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">Live
                                     Demo</a>
-                                <a href="#"
+                                <a href="https://github.com/RahimjonovBoburjon/Dark-Empire-Mafia/" target="_blank" rel="noopener noreferrer"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">GitHub</a>
                             </div>
                         </div>
@@ -319,22 +320,24 @@
                         <div class="bg-lightest-navy p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300 group project-card"
                             data-aos="fade-up" data-aos-delay="400">
                             <h3 class="text-xl font-bold text-lightest-slate mb-2 group-hover:text-green transition-colors project-title"
-                                data-aos="fade-up" data-aos-delay="500">Project Three</h3>
+                                data-aos="fade-up" data-aos-delay="500">Resume Builder</h3>
                             <p class="text-slate mb-4 leading-relaxed project-description" data-aos="fade-up"
-                                data-aos-delay="600">A full-stack application with real-time features.</p>
+                                data-aos-delay="600">A fast and simple CV builder with live preview and export.</p>
                             <div class="flex flex-wrap gap-2 mb-4 project-tech" data-aos="fade-up" data-aos-delay="700">
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
-                                    data-aos="fade-up" data-aos-delay="800">Next.js</span>
+                                    data-aos="fade-up" data-aos-delay="800">Vue 3 + Vite</span>
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
-                                    data-aos="fade-up" data-aos-delay="900">MongoDB</span>
+                                    data-aos="fade-up" data-aos-delay="900">Tailwind CSS</span>
                                 <span class="text-xs text-green bg-green/10 px-2 py-1 rounded font-mono tech-tag"
-                                    data-aos="fade-up" data-aos-delay="1000">Socket.io</span>
+                                    data-aos="fade-up" data-aos-delay="1000">OpenAI API</span>
                             </div>
                             <div class="flex space-x-4 project-links" data-aos="fade-up" data-aos-delay="1100">
-                                <a href="#"
+                                <a href="https://ai-resume-builder-by-bobur.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">Live
                                     Demo</a>
-                                <a href="#"
+                                <a href="https://github.com/RahimjonovBoburjon/AI-Resume-Builder" target="_blank"
+                                    rel="noopener noreferrer"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">GitHub</a>
                             </div>
                         </div>
