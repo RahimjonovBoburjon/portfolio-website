@@ -290,6 +290,7 @@
                             </div>
                             <div class="flex space-x-4 project-links" data-aos="fade-up" data-aos-delay="900">
                                 <a href="#"
+                                    @click.prevent="showInfoToast('This link is currently unavailable. But it will be available soon.')"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">Live
                                     Demo</a>
                                 <a href="#"
@@ -388,44 +389,64 @@
             </footer>
         </div>
     </div>
+
+    <!-- Toast Notification -->
+    <transition name="fade">
+        <div v-if="showToast" class="fixed top-6 right-6 z-50 bg-navy border border-blue-400 text-blue-200 px-6 py-4 rounded shadow-lg flex items-center space-x-4 animate-fade-in-out">
+            <svg class="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M12 8v4m0 4h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="font-mono text-sm">{{ toastMessage }}</span>
+            <button @click="dismissToast" class="ml-2 text-blue-400 hover:text-blue-200 focus:outline-none">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+    </transition>
 </template>
 
-<script>
+<script setup>
 import { ref, onMounted } from 'vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Loader from './components/Loader.vue'
 
-export default {
-    name: 'App',
-    components: {
-        Loader
-    },
-    setup() {
-        const isLoading = ref(true)
+// Loader state
+const isLoading = ref(true)
+function onLoadingComplete() {
+  isLoading.value = false
+  setTimeout(() => {
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: false,
+      offset: 50,
+      delay: 0,
+      anchorPlacement: 'top-bottom',
+      disable: false
+    })
+  }, 100)
+}
 
-        const onLoadingComplete = () => {
-            isLoading.value = false
+// Toast notification state
+const showToast = ref(false)
+const toastMessage = ref('')
+let toastTimeout = null
 
-            // Wait a bit for the DOM to update, then initialize AOS
-            setTimeout(() => {
-                AOS.init({
-                    duration: 800,
-                    easing: 'ease-out-cubic',
-                    once: false, // Allow animations to repeat on scroll
-                    offset: 50,
-                    delay: 0,
-                    anchorPlacement: 'top-bottom',
-                    disable: false
-                })
-            }, 100)
-        }
+function showInfoToast(message) {
+  toastMessage.value = message
+  showToast.value = true
+  if (toastTimeout) clearTimeout(toastTimeout)
+  toastTimeout = setTimeout(() => {
+    showToast.value = false
+  }, 3000)
+}
 
-        return {
-            isLoading,
-            onLoadingComplete
-        }
-    }
+function dismissToast() {
+  showToast.value = false
+  if (toastTimeout) clearTimeout(toastTimeout)
 }
 </script>
 
@@ -506,5 +527,21 @@ export default {
     .email-link {
         display: none;
     }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+@keyframes fade-in-out {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+.animate-fade-in-out {
+  animation: fade-in-out 3s;
 }
 </style>
