@@ -294,6 +294,7 @@
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">Live
                                     Demo</a>
                                 <a href="#"
+                                    @click.prevent="showInfoToast('This link is currently unavailable. But it will be available soon.')"
                                     class="text-green hover:text-lightest-slate transition-colors font-mono text-sm">GitHub</a>
                             </div>
                         </div>
@@ -366,14 +367,15 @@
                     </h2>
                     <p class="text-slate mb-12 max-w-2xl mx-auto leading-relaxed contact-description" data-aos="fade-up"
                         data-aos-delay="200">
-                        I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
-                        I'll try my best to get back to you!
+                        Although I’m currently working on exciting freelance projects and startups, I’m always happy to
+                        connect. Whether you have a question, an idea or just want to say hello — feel free to reach
+                        out. I’ll do my best to get back to you soon!
                     </p>
-                    <button
-                        class="border-2 border-green text-green px-8 py-4 rounded hover:bg-green/10 transition-all duration-300 font-mono text-sm contact-button"
+                    <a href="mailto:shadow88bob@gmail.com" target="_blank" rel="noopener noreferrer"
+                        class="border-2 border-green text-green px-8 py-4 rounded hover:bg-green/10 transition-all duration-300 font-mono text-sm contact-button inline-block text-center"
                         data-aos="fade-up" data-aos-delay="300">
                         Say Hello
-                    </button>
+                    </a>
                 </div>
             </section>
 
@@ -392,10 +394,13 @@
 
     <!-- Toast Notification -->
     <transition name="fade">
-        <div v-if="showToast" class="fixed top-6 right-6 z-50 bg-navy border border-blue-400 text-blue-200 px-6 py-4 rounded shadow-lg flex items-center space-x-4 animate-fade-in-out">
-            <svg class="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M12 8v4m0 4h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <div v-if="showToast"
+            class="fixed top-6 right-6 z-50 bg-navy border border-blue-400 text-blue-200 px-6 py-4 rounded shadow-lg flex items-center space-x-4">
+            <svg class="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2"
+                viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none" />
+                <path d="M12 8v4m0 4h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
             </svg>
             <span class="font-mono text-sm">{{ toastMessage }}</span>
             <button @click="dismissToast" class="ml-2 text-blue-400 hover:text-blue-200 focus:outline-none">
@@ -416,18 +421,18 @@ import Loader from './components/Loader.vue'
 // Loader state
 const isLoading = ref(true)
 function onLoadingComplete() {
-  isLoading.value = false
-  setTimeout(() => {
-    AOS.init({
-      duration: 800,
-      easing: 'ease-out-cubic',
-      once: false,
-      offset: 50,
-      delay: 0,
-      anchorPlacement: 'top-bottom',
-      disable: false
-    })
-  }, 100)
+    isLoading.value = false
+    setTimeout(() => {
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: false,
+            offset: 50,
+            delay: 0,
+            anchorPlacement: 'top-bottom',
+            disable: false
+        })
+    }, 100)
 }
 
 // Toast notification state
@@ -436,17 +441,17 @@ const toastMessage = ref('')
 let toastTimeout = null
 
 function showInfoToast(message) {
-  toastMessage.value = message
-  showToast.value = true
-  if (toastTimeout) clearTimeout(toastTimeout)
-  toastTimeout = setTimeout(() => {
-    showToast.value = false
-  }, 3000)
+    toastMessage.value = message
+    showToast.value = true
+    if (toastTimeout) clearTimeout(toastTimeout)
+    toastTimeout = setTimeout(() => {
+        showToast.value = false
+    }, 3000)
 }
 
 function dismissToast() {
-  showToast.value = false
-  if (toastTimeout) clearTimeout(toastTimeout)
+    showToast.value = false
+    if (toastTimeout) clearTimeout(toastTimeout)
 }
 </script>
 
@@ -529,19 +534,39 @@ function dismissToast() {
     }
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.3s;
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s;
 }
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
 }
+
 @keyframes fade-in-out {
-  0% { opacity: 0; transform: translateY(-10px); }
-  10% { opacity: 1; transform: translateY(0); }
-  90% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-10px); }
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
 }
+
 .animate-fade-in-out {
-  animation: fade-in-out 3s;
+    animation: fade-in-out 3s;
 }
 </style>
